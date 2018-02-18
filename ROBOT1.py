@@ -5,7 +5,7 @@ from numpy import *
 import sys
 
 def plotfunc():
-    glClearColor(0,0,1,1)
+    glClearColor(1,1,1,1)
     glClear(GL_COLOR_BUFFER_BIT)
    #FACE11111111111111111111111111111111111111111
     glColor(0,0,0)
