@@ -9,7 +9,7 @@ def myinit():
     glClear(GL_COLOR_BUFFER_BIT)
     gluPerspective(60,1,0.1,50)
     gluLookAt(10,10,10,0,0,0,0,1,0)
-
+#####################################ISLAM AHMED
 def draw_chair(x,y,z,b,n,m):
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
@@ -30,6 +30,8 @@ def draw_chair1(s,d,f,z,v,c):
     glutWireCube(2)
     glPopAttrib()
     glPopMatrix()
+    #####################################ISLAM AHMED
+
 def leg(q,w,e,u,i,o):
     glPushMatrix()
     glPushAttrib(GL_ALL_ATTRIB_BITS)
@@ -60,6 +62,7 @@ def draw_cube():
     leg(1.5, -3, 3.2,0,0,1)
 
     glFlush()
+#####################################ISLAM AHMED
 
 glutInit()
 glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB)
